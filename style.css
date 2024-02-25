@@ -1,0 +1,57 @@
+p {
+    color: red;
+}
+
+#para1:first-letter {
+    font-size: 40px;
+    color: brown;
+}
+
+#para1:first-line {
+    color: black;
+}
+
+a:link {
+    color: deeppink;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: deeppink;
+    text-decoration: underline;
+}
+
+#link:active {
+    color: darkcyan;
+}
+
+#box:focus {
+    background-color: blueviolet;
+}
+
+button:hover {
+    background-color: green;
+}
+
+button:focus {
+    background-color: pink;
+}
+
+div {
+    height: 400px;
+    width: 50%;
+    min-height: 300px;
+    background-color: aqua;
+    overflow: scroll;
+    /* border-width: 10px;
+    border-style: dotted;
+    border-color: brown; */
+    border: 5px solid red;
+    margin: 50px auto 50px auto; /* to center div */
+    padding: 50px;
+    text-align: center;
+}
